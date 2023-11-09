@@ -6,10 +6,11 @@
 #include <string.h>
 #include <unistd.h>
 
+#define BUFFER_SIZE 1024
+
 /*prompt.c*/
 int prompt(void);
 
 /*path.c*/
-void path(char *command, char *path);
-
+void handle_path(char *, char *, char *);
 #endif
