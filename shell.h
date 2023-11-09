@@ -13,4 +13,5 @@ int prompt(void);
 
 /*path.c*/
 void handle_path(char *, char *, char *);
+
 #endif
