@@ -8,6 +8,9 @@
 
 #define BUFFER_SIZE 1024
 
+/*main.c*/
+int main(void);
+
 /*prompt.c*/
 int prompt(void);
 
