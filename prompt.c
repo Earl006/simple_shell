@@ -41,12 +41,7 @@ int prompt(void)
 			}
 			if (buf[0] != '\0')
 			{
-				int status = system(buf);
-
-				if (status == -1)
-				{
-					perror("system");
-				}
+				execute(buf);
 			}
 			free(buf);
 		}

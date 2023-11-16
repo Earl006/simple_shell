@@ -14,8 +14,12 @@ int main(void);
 
 /*prompt.c*/
 int prompt(void);
+int execute(const char *buf);
 
 /*path.c*/
 void handle_path(char *, char *, char *);
+
+/*execute.c*/
+int execute(const char *buf);
 
 #endif
