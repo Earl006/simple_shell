@@ -28,6 +28,7 @@ void handle_path(char *command, char *path, char *buf)
 	if (found)
 	{
 		char *args[] = {command, NULL};
+
 		execve(command, args, NULL);
 		perror("execve");
 	}
